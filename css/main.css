@@ -1,0 +1,18 @@
+@charset 'utf8';
+
+html {
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 16px;
+}
+body {
+    color: rgb(29, 29, 31);
+}
+
+.menu-items-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1000px;
+    padding: 0 1.5em;
+    margin: 0;
+}
