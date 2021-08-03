@@ -6,13 +6,76 @@ html {
 }
 body {
     color: rgb(29, 29, 31);
+    
 }
 
+
+/* 메뉴바 { */
+.menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    background: #fff;
+
+}
 .menu-items-group {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    max-width: 1000px;
-    padding: 0 1.5em;
-    margin: 0;
+    justify-content: flex-end;
+    height: 100%;
+    margin: 0 1em; 
+    box-sizing: border-box;
+
 }
+.menu-items-group a {
+    text-decoration: none;
+    color: red;
+    padding: 0.5em;
+}
+.menu-items-group span {
+    display: inline-block;
+    color: blueviolet;
+    padding: 0.5em;
+}
+.menu-items-group .menu-item {
+    margin-left: 1em;
+}
+/* 메뉴바 }; */
+
+/* 콘텐츠 { */
+.body-section {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top: 50px;
+}
+.logo-section {
+    top: 10vh;
+    width: 10vh;
+    background: steelblue;
+}
+.text-section {
+    background: seagreen;
+}
+.list-section {
+    background: lemonchiffon;
+}
+.text-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: chocolate;
+    height: 100px;
+}
+.text-input {
+    height: 30px;
+    width: 280px;
+    border-radius: 100em;
+    border: darkgreen;
+    여기서부터 작성해야합니다.
+    input테그 수정하는 방법을 찾아서 해봅시다 
+}
+/* 콘텐츠 }; */
