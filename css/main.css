@@ -45,7 +45,7 @@ body {
 /* 메뉴바 }; */
 
 /* 콘텐츠 { */
-.body-section {
+.main-section {
     position: relative;
     display: flex;
     flex-direction: column;
@@ -54,28 +54,52 @@ body {
 }
 .logo-section {
     top: 10vh;
-    width: 10vh;
-    background: steelblue;
+    font-size: 6em;
+    font-weight: 800;
+    color: #924EBF;
+    padding-top: 2.2em;
 }
 .text-section {
-    background: seagreen;
+    /* background: seagreen; */
+    padding: 2em;
 }
 .list-section {
     background: lemonchiffon;
 }
+
 .text-form {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: chocolate;
-    height: 100px;
+    border: #dfe1e5 solid 0.15px;
+    border-radius: 100px;
 }
 .text-input {
     height: 30px;
-    width: 280px;
-    border-radius: 100em;
-    border: darkgreen;
-    여기서부터 작성해야합니다.
-    input테그 수정하는 방법을 찾아서 해봅시다 
+    width: 40vw;
+    height: 40px;
+    border-radius: 100px;
+    border: none;
+    margin-left: 50px;
+    font-size: 16px;
 }
+.text-input:focus {
+    outline: none;
+}
+.btn-input {
+    margin: 0 20px;
+    border: none;
+    background: none;
+    color: #4214A6;
+    font-weight: 800;
+    
+}
+.btn-input:hover {
+    border: none;
+    font-size: 20px;
+    color: red;
+    font-weight: 800;
+    cursor: pointer;
+}
+
 /* 콘텐츠 }; */
