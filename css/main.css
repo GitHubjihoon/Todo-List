@@ -18,7 +18,6 @@ body {
     width: 100%;
     height: 50px;
     background: #fff;
-
 }
 .menu-items-group {
     display: flex;
@@ -27,17 +26,23 @@ body {
     height: 100%;
     margin: 0 1em; 
     box-sizing: border-box;
-
 }
+
 .menu-items-group a {
     text-decoration: none;
-    color: red;
+    color: #6AE672;
     padding: 0.5em;
 }
 .menu-items-group span {
     display: inline-block;
-    color: blueviolet;
+    color: #6AE672;
     padding: 0.5em;
+}
+.menu-items-group span:hover,
+.menu-items-group a:hover {
+    color: #FF4D3D;
+    cursor: pointer;
+    font-weight: 800;
 }
 .menu-items-group .menu-item {
     margin-left: 1em;
@@ -52,21 +57,20 @@ body {
     align-items: center;
     top: 50px;
 }
+
 .logo-section {
     top: 10vh;
     font-size: 6em;
     font-weight: 800;
-    color: #924EBF;
+    color: #FF4D3D;
     padding-top: 2.2em;
+    padding-bottom: .2em;
 }
+
 .text-section {
     /* background: seagreen; */
     padding: 2em;
 }
-.list-section {
-    background: lemonchiffon;
-}
-
 .text-form {
     display: flex;
     justify-content: center;
@@ -74,32 +78,38 @@ body {
     border: #dfe1e5 solid 0.15px;
     border-radius: 100px;
 }
+.text-circle {
+    margin: 0 20px;
+}
 .text-input {
     height: 30px;
     width: 40vw;
     height: 40px;
     border-radius: 100px;
     border: none;
-    margin-left: 50px;
     font-size: 16px;
 }
 .text-input:focus {
     outline: none;
 }
-.btn-input {
+.text-btn {
     margin: 0 20px;
     border: none;
     background: none;
-    color: #4214A6;
+    color: #FFBFBC;
     font-weight: 800;
-    
 }
-.btn-input:hover {
+.text-btn:hover {
     border: none;
     font-size: 20px;
-    color: red;
+    color: #FF4D3D;
     font-weight: 800;
     cursor: pointer;
 }
+
+.list-section {
+    background: lemonchiffon;
+}
+
 
 /* 콘텐츠 }; */
