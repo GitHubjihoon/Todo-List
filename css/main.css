@@ -71,6 +71,9 @@ body {
     /* background: seagreen; */
     padding: 2em;
 }
+.text-form:focus-within {
+    box-shadow:  0px 0px 10px 3px rgba(29, 29, 31, .1);
+}
 .text-form {
     display: flex;
     justify-content: center;
@@ -106,10 +109,53 @@ body {
     font-weight: 800;
     cursor: pointer;
 }
+/* 콘텐츠 }; */
+
+
 
 .list-section {
-    background: lemonchiffon;
+    /* background: lemonchiffon; */
 }
 
+.list-section .list-box li {
+    display: flex;
+    justify-content: center;
+    min-width: 500px;
+    margin: 0.8em;
 
-/* 콘텐츠 }; */
+}
+.list-section .list-box p {
+    font-size: 1em;
+    color: rgb(29, 29, 31);
+    height: 100%;
+    text-align: center;
+    margin: auto 0;
+}
+.list-section .list-box p:hover {
+    cursor: pointer;
+}
+.list-section .list-box .selected {
+    opacity: .5;
+    text-decoration: line-through;
+}
+.list-section .list-box button {
+    margin-left: auto;
+    background: #FF4D3D;
+    color: #fff;
+    font-weight: 800;
+    width: 1.5em;
+    height: 1.5em;
+    border: none;
+    border-radius: .3em;
+}
+.list-section .list-box button:hover {
+    margin-left: auto;
+    background: #9c271c;
+    color: #f9f9f9ce;
+    font-weight: 800;
+    width: 1.5em;
+    height: 1.5em;
+    border: none;
+    border-radius: .3em;
+    
+}
